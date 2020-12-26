@@ -1,0 +1,39 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "aplikasi rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/artdengun/nodejs-RESTapi.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "Deni Gunawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artdengun/nodejs-RESTapi/issues"
+  },
+  "homepage": "https://github.com/artdengun/nodejs-RESTapi#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "react-google-recaptcha": "^2.1.0",
+    "react-recaptcha": "^2.3.10",
+    "svelte": "^3.31.0",
+    "sveltestrap": "^3.9.7"
+  }
+}
