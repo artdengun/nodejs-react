@@ -1,13 +1,15 @@
-import './App.css';
-import Home from './Component/Fungsional/Home';
-import Beranda from './Component/Class/Beranda';
-
-
+import NavigationFooter from "./Component/Fungsional/NavigationFooter";
+import EcommercePage from "./Component/Fungsional/EcommercePage";
+import Contact from "./Component/Fungsional/CSS/Contact";
+import AppPage from "./Component/Fungsional/AppPage";
 function App() {
   return (
     <div className="App">
-     <Home />
-    </div> 
+      <AppPage />
+      <EcommercePage />
+      <Contact />
+      <NavigationFooter />
+    </div>
   );
 }
 

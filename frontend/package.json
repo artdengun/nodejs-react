@@ -9,6 +9,8 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
+    "chart.js": "^2.9.4",
+    "mdbreact": "^5.0.1",
     "nodemailer": "^6.4.17",
     "querystring": "^0.2.0",
     "react": "^17.0.1",
