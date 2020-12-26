@@ -16,9 +16,9 @@ import {
     MDBView,
     MDBContainer
 } from 'mdbreact';
-import './AppPage.css';
+import '../portofolio/CSS/NavigateBar.css';
 
-class AppPage extends React.Component {
+class NavigateBar extends React.Component {
     state = {
         collapseID: ''
     };
@@ -38,8 +38,7 @@ class AppPage extends React.Component {
 
     render() {
         const { collapseID } = this.state;
-        const bgPink = { backgroundColor: '#e91e63' };
-        const navStyle = { marginTop: '4rem' };
+        const bgBlue = { backgroundColor: '#39C0ED' };
         const overlay = (
             <div
                 id='sidenav-overlay'
@@ -52,9 +51,9 @@ class AppPage extends React.Component {
                 <Router>
                     <div>
                         <header>
-                            <MDBNavbar style={bgPink} dark expand="md" scrolling fixed="top">
+                            <MDBNavbar style={bgBlue} dark expand="md" scrolling fixed="top">
                                 <MDBNavbarBrand href="/">
-                                    <strong>Navbar</strong>
+                                    <strong>Deni Gunawan</strong>
                                 </MDBNavbarBrand>
                                 <MDBNavbarToggler onClick={this.onClick} />
                                 <MDBCollapse isOpen={this.state.collapse} navbar>
@@ -63,25 +62,31 @@ class AppPage extends React.Component {
                                             <MDBNavLink to="#">Home</MDBNavLink>
                                         </MDBNavItem>
                                         <MDBNavItem>
-                                            <MDBNavLink to="#">Features</MDBNavLink>
+                                            <MDBNavLink to="#">Project</MDBNavLink>
                                         </MDBNavItem>
                                         <MDBNavItem>
-                                            <MDBNavLink to="#">Pricing</MDBNavLink>
+                                            <MDBNavLink to="#">Experience</MDBNavLink>
                                         </MDBNavItem>
                                         <MDBNavItem>
-                                            <MDBNavLink to="#">Options</MDBNavLink>
+                                            <MDBNavLink to="#">Sertifikat</MDBNavLink>
+                                        </MDBNavItem>
+                                        <MDBNavItem>
+                                            <MDBNavLink to="#">Blog</MDBNavLink>
+                                        </MDBNavItem>
+                                        <MDBNavItem>
+                                            <MDBNavLink to="#">Contact Me</MDBNavLink>
                                         </MDBNavItem>
                                     </MDBNavbarNav>
                                     <MDBNavbarNav right>
-                                        <MDBNavItem>
-                                            <MDBNavLink to="#"><MDBIcon fab icon="facebook-f" /></MDBNavLink>
+                                        {/* <MDBNavItem>
+                                            <MDBNavLink to="#"><MDBIcon fab icon="facebook-f" />My Blog</MDBNavLink>
                                         </MDBNavItem>
                                         <MDBNavItem>
                                             <MDBNavLink to="#"><MDBIcon fab icon="twitter" /></MDBNavLink>
                                         </MDBNavItem>
                                         <MDBNavItem>
                                             <MDBNavLink to="#"><MDBIcon fab icon="instagram" /></MDBNavLink>
-                                        </MDBNavItem>
+                                        </MDBNavItem> */}
                                     </MDBNavbarNav>
                                 </MDBCollapse>
                             </MDBNavbar>
@@ -112,22 +117,21 @@ class AppPage extends React.Component {
                         <MDBRow>
                             <MDBCol md='12' className='mb-4 white-text text-center'>
                                 <h3 className='display-3 font-weight-bold mb-0 pt-md-5'>
-                                    Creative Agency{' '}
+                                    Deni Gunawan{' '}
                                 </h3>
                                 <hr className='hr-light my-4 w-75' />
                                 <h4 className='subtext-header mt-2 mb-4'>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                    deleniti consequuntur nihil.
+                                    Full Stack Java Developer
                 </h4>
                                 <MDBBtn outline rounded color='white'>
-                                    <MDBIcon icon='home' /> Visit us
-                </MDBBtn>
+                                    <MDBIcon icon='home' />
+                                </MDBBtn>
                             </MDBCol>
                         </MDBRow>
                     </MDBContainer>
                 </MDBView>
 
-                <MDBContainer>
+                {/* <MDBContainer>
                     <MDBRow className='pt-5 pb-4'>
                         <MDBCol md='12' className='text-center'>
                             <p>
@@ -141,10 +145,10 @@ class AppPage extends React.Component {
               </p>
                         </MDBCol>
                     </MDBRow>
-                </MDBContainer>
+                </MDBContainer> */}
             </div>
         );
     }
 }
 
-export default AppPage;
+export default NavigateBar;

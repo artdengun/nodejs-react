@@ -1,14 +1,9 @@
-import NavigationFooter from "./Component/Fungsional/NavigationFooter";
-import EcommercePage from "./Component/Fungsional/EcommercePage";
-import Contact from "./Component/Fungsional/CSS/Contact";
-import AppPage from "./Component/Fungsional/AppPage";
+import Portofolio from "./Component/portofolio/Portofolio";
+
 function App() {
   return (
     <div className="App">
-      <AppPage />
-      <EcommercePage />
-      <Contact />
-      <NavigationFooter />
+      <Portofolio />
     </div>
   );
 }

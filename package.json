@@ -29,6 +29,7 @@
     "ip": "^1.1.5",
     "jsonwebtoken": "^8.5.1",
     "md5": "^2.3.0",
+    "mdbootstrap": "^4.19.2",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "react-google-recaptcha": "^2.1.0",

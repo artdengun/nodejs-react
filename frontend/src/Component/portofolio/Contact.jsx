@@ -5,8 +5,7 @@ const Contact = () => {
     return (
         <section className="my-5">
             <h2 className="h1-responsive font-weight-bold text-center my-5">
-                Contact Me
-      </h2>
+                Kontak Saya</h2>
             <p className="text-center w-responsive mx-auto pb-5">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
                 error amet numquam iure provident voluptate esse quasi, veritatis
@@ -14,7 +13,7 @@ const Contact = () => {
       </p>
             <MDBRow>
                 <MDBCol lg="5" className="lg-0 mb-4">
-                    <MDBCard>
+                    <MDBCard className="my-5 px- pb-5">
                         <MDBCardBody>
                             <div className="form-header blue accent-1">
                                 <h3 className="mt-2">

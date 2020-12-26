@@ -3,17 +3,12 @@ import { MDBRow, MDBCol, MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCa
 import TeamPage from './TeamPage';
 import ProjectsPage from './ProjectsPage';
 import BlogPage from './BlogPage';
+import Promo from './Experience';
+import RecentPage from './MyBlog';
 
 const EcommercePage = () => {
     return (
         <div>
-            <BlogPage />
-            <hr className="my-5" />
-            <ProjectsPage />
-            <hr className="my-5" />
-            <TeamPage />
-            <hr className="my-5" />
-
             <section className='text-center my-5'>
                 <h2 className='h1-responsive font-weight-bold text-center my-5'>Our bestsellers</h2>
                 <p className='grey-text text-center w-responsive mx-auto mb-5'>
